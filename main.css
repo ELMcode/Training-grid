@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color:#C5E0D8;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    font-family:'Poppins'
+}
+
+h1{
+    text-align: center;
+    margin-top: 5em;
+    color:#444545;
+}
+
+.navbar{
+    position:absolute;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+}
+.navbar a{
+    color:#a86c76;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+    
+   
+}
+.navbar .nav-links ul li{
+    padding-left:250px;
+    
+}
+
+/* Grid container training part */
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    "Area1 Area2"
+    "Area3 Area4";
+    height: 200px;
+    border-style: solid;
+    border-color: #a86c76;
+    grid-gap: 5px;
+    background-color:beige;
+    text-align: center;
+    
+}
+
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+
+}
+
+.item-1{
+    grid-area: Area1;
+  
+}
+
+.item-2{
+    grid-area: Area2;
+ 
+}
+
+.item-3{
+    grid-area: Area3;
+ 
+}
+
+.item-4{
+    grid-area: Area4;
+ 
+}
